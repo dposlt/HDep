@@ -1,4 +1,7 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, flash, redirect, url_for, session, logging
+#from flask_mysqldb import MySQL
+#from wftorms import Form, StringField, TextAreaField, PassworField, validators
+from passlib.hash import  sha256_crypt
 
 app = Flask(__name__) #inicializace pohledu (view)
 
