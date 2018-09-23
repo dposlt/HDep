@@ -1,0 +1,5 @@
+# ignore all bin
+
+bin/
+include/
+lib/
